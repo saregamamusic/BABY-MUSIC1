@@ -67,7 +67,7 @@ def aq_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"]
+                    text=_["CLOSE_BUTTON"],
                     callback_data="close",
             ),
         ],
